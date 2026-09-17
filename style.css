@@ -1,0 +1,104 @@
+/* ==========================================
+   PART 4: BASIC STYLING WITH CSS SELECTORS
+   ========================================== */
+
+/* --- 1. Element Selectors --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #1a252f;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-top: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #4b5563;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #f9fafb;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* --- 2. ID Selectors --- */
+#main-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#add-expense-section {
+    border-top: 4px solid #2563eb; /* Blue accent bar for input area */
+}
+
+#expenses-display-section {
+    border-top: 4px solid #10b981; /* Green accent bar for display area */
+}
+
+
+/* --- 3. Class Selectors --- */
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.content-box {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.placeholder-text {
+    text-align: center;
+    font-style: italic;
+    color: #9ca3af;
+    padding: 20px 0;
+}
